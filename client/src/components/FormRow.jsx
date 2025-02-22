@@ -1,11 +1,11 @@
-const FormRow = ({ type, name, labelText, defaultValue}) => {
+const FormRow = ({ type, name, labelText, placeHolder}) => {
   return (
     <div className="form-row">
           <label htmlFor={name} className='form-label'>
             {labelText || name}
           </label>
           <input type={type} id={name} name={name}
-            className='form-input' defaultValue={defaultValue || ''} required />
+            className='form-input' placeholder={placeHolder || ''} required />
         </div>
   )
 }

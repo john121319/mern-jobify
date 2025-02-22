@@ -8,14 +8,14 @@ function Register() {
       <form className='form'>
         <Logo />
         <h4>Register</h4>
-        <FormRow type='text' name='name' defaultValue='John' />
+        <FormRow type='text' name='name' placeHolder='John' />
         <FormRow type='text' name='lastName' 
-          labelText='Last Name' defaultValue='Smith' />
+          labelText='Last Name' placeHolder='Smith' />
         <FormRow type='text' name='location' 
-          defaultValue='earth' />
+          placeHolder='earth' />
         <FormRow type='email' name='email' 
-          defaultValue='John@gmail.com' />
-        <FormRow type='password' name='password' defaultValue='John123' />
+          placeHolder='John@gmail.com' />
+        <FormRow type='password' name='password' placeHolder='John123' />
         <button type='submit' className='btn btn-block'>
           Submit
         </button>

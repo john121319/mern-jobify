@@ -10,8 +10,8 @@ const Login = () => {
         <Logo />
         <h4>Login</h4>
         <FormRow type='email' name='email' 
-          defaultValue='John@gmail.com' />
-        <FormRow type='password' name='password' defaultValue='John123' />
+          placeHolder='John@gmail.com' />
+        <FormRow type='password' name='password' placeHolder='John123' />
         <button type='submit' className='btn btn-block'>
           Submit
         </button>
